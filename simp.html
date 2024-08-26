@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blogging Platform</title>
+    <link rel="stylesheet" href="blo.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Mini facebook</h1>
+        <div class="post-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="content" placeholder="Write your post here..." required></textarea>
+            <input type="file" id="image" accept="image/*">
+            <div class="form-buttons">
+                <button class="btn btn-add" onclick="addPost()">Add Post</button>
+                <button class="btn btn-clear" onclick="clearForm()">Clear Form</button>
+            </div>
+        </div>
+
+        <div class="post-actions">
+            <input type="text" id="search" placeholder="Search posts..." onkeyup="searchPosts()">
+            <button class="btn btn-sort" onclick="sortPostsByDate()">Sort by Date</button>
+            <button class="btn btn-sort" onclick="sortPostsByName()">Sort by Name</button>
+        </div>
+
+        <div id="posts"></div>
+    </div>
+
+    <script src="pla.js"></script>
+</body>
+</html>

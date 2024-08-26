@@ -1,0 +1,144 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #34495e;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.post-form, .post-actions {
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fdfdfd;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-add {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #2ecc71;
+}
+
+.btn-clear {
+    background-color: #c0392b;
+    color: white;
+}
+
+.btn-clear:hover {
+    background-color: #e74c3c;
+}
+
+.btn-sort {
+    background-color: #2980b9;
+    color: white;
+}
+
+.btn-sort:hover {
+    background-color: #3498db;
+}
+
+.post {
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-actions button {
+    background-color: #e67e22;
+    color: white;
+    margin-right: 5px;
+}
+
+.post-actions button:hover {
+    background-color: #d35400;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #95a5a6;
+}
+
+.btn-like, .btn-heart, .btn-sad, .btn-unlike {
+    background-color: #e74c3c;
+    color: white;
+    margin-right: 5px;
+}
+
+.btn-like:hover, .btn-heart:hover, .btn-sad:hover, .btn-unlike:hover {
+    background-color: #c0392b;
+}
